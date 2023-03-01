@@ -177,7 +177,7 @@ class ChatWindow(QMainWindow):
             openai.api_key = self.api_key
             QMessageBox.information(self, '登录成功', '您已成功登录 OpenAI！')
 
-    def send_message(self):
+    def send_message(self): 
         # 获取用户输入的消息
         message = self.input_box.text().strip()
 
